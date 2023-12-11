@@ -90,6 +90,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .contact-info__block--center {
@@ -112,6 +113,11 @@
   width: 20px;
   display: flex;
   justify-content: center;
+}
+.contact-info__item-icon-wrapper.mail {
+    margin-left: 3rem;
+    color: var(--secondary-text-color);
+    text-decoration: none;
 }
 
 .contact-info__item-icon path {
@@ -166,7 +172,7 @@
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 
 /*Experience and additional info styles*/
@@ -179,10 +185,11 @@
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    padding-right: 2rem;
   }
   
   .experiences__company-header-durability {
-    color: var(--durability-text-color);
+     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
@@ -202,7 +209,7 @@
   }
   
   .experiences__company-project-role {
-    color: var(--durability-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
@@ -234,7 +241,7 @@
   }
   
   .additional-info__education-university-durability {
-    color: var(--durability-text-color);
+    color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
